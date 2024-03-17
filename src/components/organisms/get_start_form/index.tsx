@@ -5,7 +5,7 @@ import SocialMediaLoginButtonGroup from "../social_login_button/social_login_but
 
 const GetStartForm: React.FC = () => {
     return (
-        <div className="w-3/4 mx-auto">
+        <div className="w-full mx-auto">
             <Input className="font-inter" type='email' value='' placeholder="name@company.com" />
             <Button className="bg-blue-300 text-white mt-4 rounded border h-10"  >Continue</Button>
             <div className="flex items-center justify-center w-full pb-2 pt-1">
